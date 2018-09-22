@@ -10,8 +10,8 @@ const fs = require('fs');
 var photoNum = 0;
 
 firebase.initializeApp({
-  databaseURL: '<firebaseURLhere>',
-  serviceAccount: './<firebaseSecurityProfile>.json'
+  databaseURL: 'https://alexadoor-9bc64.firebaseio.com',
+  serviceAccount: './alexadoor-9bc64-firebase-adminsdk-l4iyz-b4dba652cd.json'
 });
 
 /* Local Database Access */
