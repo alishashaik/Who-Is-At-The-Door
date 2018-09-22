@@ -8,8 +8,8 @@ var queryString = require('querystring');
 var firebase = require('firebase');
 
 firebase.initializeApp({
-  databaseURL: '<firebaseURL>',
-  serviceAccount: './<firebaseSecurityProfile>.json'
+  databaseURL: 'https://alexadoor-9bc64.firebaseio.com',
+  serviceAccount: './alexadoor-9bc64-firebase-adminsdk-l4iyz-b4dba652cd.json'
 });
 
 /* Access to database */
